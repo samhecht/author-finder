@@ -5,12 +5,15 @@
   "dependencies": {
     "antd": "^3.19.1",
     "axios": "^0.18.0",
+    "concurrently": "^4.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "serve": "node ../../book-server/index.js",
+    "start-all": "concurrently --kill-others \"yarn start\" \"yarn serve\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

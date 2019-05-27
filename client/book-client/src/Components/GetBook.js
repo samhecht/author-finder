@@ -63,11 +63,6 @@ class GetBook extends React.Component {
             'margin-right': '10%',
             'margin-left': '10%'
         };
-        let imgStyle = {
-            'margin-top': '5px',
-            'margin-bottom': '5px',
-            'border-radius': '30%'
-        };
         let cardStyle = {
             width: '25%',
             'margin-left': '37.5%',
